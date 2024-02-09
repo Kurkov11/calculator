@@ -64,8 +64,10 @@
 .theme-and-toggle {
   display: flex;
   align-items: end;
+  gap: 2rem;
 }
 .toggle-count {
   display: flex;
   justify-content: space-between;
+  margin: 0 0.5rem;
 }
