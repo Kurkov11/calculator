@@ -25,11 +25,32 @@
 * {
   font-family: "League Spartan";
 }
-
+/* Attribution */
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.toggle {
+  --toggle-height: 1.6rem;
+  --dot-size: 1rem;
+
+  width: 3.7rem;
+  height: var(--toggle-height);
+  background-color: var(--toggle-bg-color);
+  border-radius: 20rem;
+  display: flex;
+  align-items: center;
+
+  /* Position the dot neatly considering it's size and toggle height */
+  padding-left: calc((var(--toggle-height) - var(--dot-size)) / 2);
+}
+.toggle__dot {
+  border-radius: 9999px;
+  width: var(--dot-size);
+  height: var(--dot-size);
+  background-color: var(--red);
 }
