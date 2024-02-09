@@ -34,6 +34,15 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+.screen {
+  background-color: var(--screen-bg-color);
+}
+.keypad {
+  background-color: var(--keypad-bg-color);
+}
+main {
+  background-color: var(--main-bg-color);
+}
 h1 {
   font-size: 2rem;
 }
@@ -43,6 +52,10 @@ h1 {
 }
 .cancel-key {
   font-size: 1.5rem;
+  background-color: var(--cancel-key-bg-color);
+}
+.key {
+  background-color: var(--key-bg-color);
 }
 .toggle {
   --toggle-height: 1.6rem;
@@ -75,8 +88,23 @@ h1 {
   gap: 2rem;
   font-size: 0.9rem;
 }
+.theme,
+.toggle,
+.equals,
+.cancel-key,
+.screen,
+h1 {
+  color: white;
+}
+.key {
+  color: var(---dark-text-color);
+}
+.equals {
+  background-color: var(--red);
+}
 .toggle-count {
   display: flex;
   justify-content: space-between;
   margin: 0 0.5rem;
+  color: white;
 }
