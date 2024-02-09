@@ -54,3 +54,16 @@
   height: var(--dot-size);
   background-color: var(--red);
 }
+.upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.theme-and-toggle {
+  display: flex;
+  align-items: end;
+}
+.toggle-count {
+  display: flex;
+  justify-content: space-between;
+}
