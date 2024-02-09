@@ -21,3 +21,7 @@
   ---dark-text-color: hsl(221, 14%, 31%);
   --light-text-color: hsl(0, 0, 100%);
 }
+
+* {
+  font-family: "League Spartan";
+}
