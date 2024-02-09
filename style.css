@@ -36,12 +36,22 @@
 }
 .screen {
   background-color: var(--screen-bg-color);
+  padding: 1.7rem;
+  text-align: right;
+  border-radius: 1rem;
 }
 .keypad {
   background-color: var(--keypad-bg-color);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  display: grid;
+  gap: 1rem;
+  text-align: center;
+  vertical-align: middle;
 }
 main {
   background-color: var(--main-bg-color);
+  padding: 1.5rem;
 }
 h1 {
   font-size: 2rem;
