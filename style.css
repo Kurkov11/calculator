@@ -24,6 +24,8 @@
 
 * {
   font-family: "League Spartan";
+  margin: 0;
+  padding: 0;
 }
 /* Attribution */
 .attribution {
