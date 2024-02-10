@@ -160,6 +160,9 @@ h1 {
   border-radius: 9999px;
   width: var(--dot-size);
   height: var(--dot-size);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 .upper {
   display: flex;
