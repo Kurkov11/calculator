@@ -104,6 +104,7 @@ main,
   border-radius: 0.7rem;
   font-size: 2.4rem;
   margin-bottom: 1.5rem;
+  min-height: 35.49px; /* Hardcoded */ /* If there is no number screen height should stay the same */
 }
 .keypad {
   padding: 1.6rem 1.5rem;
