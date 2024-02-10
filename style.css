@@ -134,15 +134,17 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-property: transform, box-shadow;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 .cancel-key,
 .equals {
   font-size: 1.2rem;
 }
-.main-key p,
-.cancel-key p,
-.equals p {
+.key p {
   padding-top: 0.4rem;
+  pointer-events: none;
 }
 .main-key {
   font-size: 2rem;
