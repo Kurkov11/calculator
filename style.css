@@ -79,17 +79,24 @@ h1 {
 .main-key {
   font-size: 2rem;
 }
+.cancel-key,
+.equals {
+  font-size: 1.2rem;
+}
 .main-key p {
   padding-top: 1rem;
 }
 .cancel-key {
-  font-size: 1.5rem;
   background-color: var(--cancel-key-bg-color);
 }
 .main-key {
   background-color: var(--key-bg-color);
   box-shadow: 0 var(--shadow-offset) var(--key-shadow-color);
   color: var(---dark-text-color);
+}
+.equals {
+  background-color: var(--red);
+  grid-column: span 2;
 }
 .toggle {
   --toggle-height: 1.6rem;
@@ -121,10 +128,6 @@ h1 {
   align-items: end;
   gap: 2rem;
   font-size: 0.9rem;
-}
-.equals {
-  background-color: var(--red);
-  grid-column: span 2;
 }
 .reset {
   grid-column: span 2;
