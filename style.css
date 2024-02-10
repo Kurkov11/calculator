@@ -38,6 +38,9 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* Colors start */
+
 /* Color group 1 */
 .theme,
 .screen,
@@ -45,24 +48,44 @@ h1,
 .toggle-count {
   color: var(--main-text-color);
 }
+
 /* Color group 2 */
-main {
-  background-color: var(--main-bg-color);
-}
-/* Color group 3 */
-.equals {
-  background-color: var(--equals-bg-color);
-  box-shadow: 0 var(--shadow-offset) var(--equals-shadow-color);
-  color: var(--main-text-color);
-}
+.equals,
 .toggle__dot {
   background-color: var(--equals-bg-color);
 }
-/* Color group 4 */
+
+/* Other colors start*/
 .cancel-key {
   background-color: var(--cancel-key-bg-color);
   box-shadow: 0 var(--shadow-offset) var(--cancel-key-shadow-color);
 }
+.equals {
+  box-shadow: 0 var(--shadow-offset) var(--equals-shadow-color);
+  color: var(--main-text-color);
+}
+.cancel-key {
+  color: white;
+}
+main {
+  background-color: var(--main-bg-color);
+}
+.toggle {
+  background-color: var(--toggle-bg-color);
+}
+.main-key {
+  background-color: var(--key-bg-color);
+  box-shadow: 0 var(--shadow-offset) var(--key-shadow-color);
+  color: var(---dark-text-color);
+}
+.keypad {
+  background-color: var(--keypad-bg-color);
+}
+.screen {
+  background-color: var(--screen-bg-color);
+}
+/* Other colors end */
+
 .upper {
   margin-bottom: 2rem;
 }
@@ -72,7 +95,6 @@ main {
   letter-spacing: 0.1rem;
 }
 .screen {
-  background-color: var(--screen-bg-color);
   padding: 1.7rem;
   text-align: right;
   border-radius: 0.7rem;
@@ -80,7 +102,6 @@ main {
   margin-bottom: 1.5rem;
 }
 .keypad {
-  background-color: var(--keypad-bg-color);
   padding: 1.5rem;
   border-radius: 0.7rem;
   display: grid;
@@ -116,9 +137,6 @@ h1 {
   padding-top: 0.4rem;
 }
 .main-key {
-  background-color: var(--key-bg-color);
-  box-shadow: 0 var(--shadow-offset) var(--key-shadow-color);
-  color: var(---dark-text-color);
   font-size: 2rem;
 }
 .equals {
@@ -130,7 +148,6 @@ h1 {
 
   width: 3.7rem;
   height: var(--toggle-height);
-  background-color: var(--toggle-bg-color);
   border-radius: 20rem;
   display: flex;
   align-items: center;
