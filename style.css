@@ -88,17 +88,18 @@ h1 {
   --shadow-offset: 4px;
   border-radius: 0.3rem;
   margin-bottom: var(--shadow-offset);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .cancel-key,
 .equals {
   font-size: 1.2rem;
 }
-.main-key p {
-  padding-top: 1rem;
-}
+.main-key p,
 .cancel-key p,
 .equals p {
-  padding-top: 1.3rem;
+  padding-top: 0.4rem;
 }
 .cancel-key {
   background-color: var(--cancel-key-bg-color);
