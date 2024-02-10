@@ -87,6 +87,7 @@ h1 {
 .key {
   --shadow-offset: 4px;
   border-radius: 0.3rem;
+  margin-bottom: var(--shadow-offset);
 }
 .cancel-key,
 .equals {
