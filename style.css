@@ -45,6 +45,7 @@
   padding: 1.5rem;
   border-radius: 1rem;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1rem;
   text-align: center;
   vertical-align: middle;
@@ -111,6 +112,10 @@ h1 {
 }
 .equals {
   background-color: var(--red);
+  grid-column: span 2;
+}
+.reset {
+  grid-column: span 2;
 }
 .toggle-count {
   display: flex;
