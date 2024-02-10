@@ -13,10 +13,16 @@ toggleEl.addEventListener("click", function () {
   }
   //Changing theme visually
   if (currentTheme === 1) {
-    console.log("Apply first theme");
+    toggleDotEl.classList.add("dot-location-1");
+    toggleDotEl.classList.remove("dot-location-2");
+    toggleDotEl.classList.remove("dot-location-3");
   } else if (currentTheme === 2) {
-    console.log("Apply second theme");
+    toggleEl.classList.remove("dot-location-1");
+    toggleDotEl.classList.add("dot-location-2");
+    toggleDotEl.classList.remove("dot-location-3");
   } else if (currentTheme === 3) {
-    console.log("Apply third theme");
+    toggleDotEl.classList.remove("dot-location-1");
+    toggleDotEl.classList.remove("dot-location-2");
+    toggleDotEl.classList.add("dot-location-3");
   }
 });
