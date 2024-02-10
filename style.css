@@ -2,7 +2,6 @@
   /* Background colors */
   --main-bg-color: hsl(222, 26%, 31%);
 
-  --toggle-bg-color: hsl(223, 31%, 20%);
   --keypad-bg-color: hsl(223, 31%, 20%);
 
   --screen-bg-color: hsl(224, 36%, 15%);
@@ -54,7 +53,11 @@ h1,
 .toggle__dot {
   background-color: var(--equals-bg-color);
 }
-
+/* Color group 3 */
+.keypad,
+.toggle {
+  background-color: var(--keypad-bg-color);
+}
 /* Other colors start*/
 .cancel-key {
   background-color: var(--cancel-key-bg-color);
@@ -70,16 +73,10 @@ h1,
 main {
   background-color: var(--main-bg-color);
 }
-.toggle {
-  background-color: var(--toggle-bg-color);
-}
 .main-key {
   background-color: var(--key-bg-color);
   box-shadow: 0 var(--shadow-offset) var(--key-shadow-color);
   color: var(---dark-text-color);
-}
-.keypad {
-  background-color: var(--keypad-bg-color);
 }
 .screen {
   background-color: var(--screen-bg-color);
