@@ -19,6 +19,9 @@
 
   /* Text */
   ---dark-text-color: hsl(221, 14%, 31%);
+
+  /* Sizes */
+  --key-size: 3.5rem;
 }
 
 * {
@@ -66,7 +69,12 @@ h1 {
   background-color: var(--cancel-key-bg-color);
 }
 .key {
+  --shadow-offset: 4px;
   background-color: var(--key-bg-color);
+  border-radius: 0.15rem;
+  box-shadow: 0 var(--shadow-offset) var(--key-shadow-color);
+  height: 3.5rem;
+  width: calc(var(--key-size) + var(--shadow-offset));
 }
 .toggle {
   --toggle-height: 1.6rem;
