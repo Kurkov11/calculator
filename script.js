@@ -4,7 +4,7 @@ const toggleEl = document.querySelector(".toggle");
 const toggleDotEl = document.querySelector(".toggle__dot");
 const root = document.querySelector(":root");
 
-//When toggle clicked on mobile
+//Theme switching (START)
 let currentTheme = 1;
 toggleEl.addEventListener("click", function () {
   // Inner functions (start)
@@ -69,3 +69,19 @@ toggleEl.addEventListener("click", function () {
     changeVariableColor("--cancel-key-shadow-color", "hsl(285, 91%, 52%)");
   }
 });
+//Theme switching (END)
+
+//Button animations (START)
+const keys = Array.from(document.querySelectorAll(".key"));
+for (const key of keys) {
+  let hold = true;
+  key.addEventListener("pointerdown", () => {
+    key.classList.add("clicked");
+    console.log("key down");
+  });
+  key.addEventListener("pointerup", () => {
+    key.classList.remove("clicked");
+    console.log("key down");
+  });
+}
+//Button animations (END)
