@@ -181,3 +181,14 @@ h1 {
   font-size: 0.7rem;
   margin-bottom: 0.3rem;
 }
+
+/* Classes to remove and add in JS */
+.justify-start {
+  justify-content: start;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-end {
+  justify-content: end;
+}
