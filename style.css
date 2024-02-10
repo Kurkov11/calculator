@@ -76,8 +76,11 @@ h1 {
   min-width: calc(var(--key-size) + var(--shadow-offset));
 }
 .screen,
-.key {
-  font-size: 2.5rem;
+.main-key {
+  font-size: 2rem;
+}
+.main-key p {
+  padding-top: 1rem;
 }
 .cancel-key {
   font-size: 1.5rem;
@@ -87,9 +90,6 @@ h1 {
   background-color: var(--key-bg-color);
   box-shadow: 0 var(--shadow-offset) var(--key-shadow-color);
   color: var(---dark-text-color);
-}
-.main-key p {
-  padding-top: 0.8rem;
 }
 .toggle {
   --toggle-height: 1.6rem;
