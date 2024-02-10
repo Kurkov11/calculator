@@ -62,7 +62,7 @@ h1,
 }
 .equals {
   box-shadow: 0 var(--shadow-offset) var(--equals-shadow-color);
-  color: var(--main-text-color);
+  color: var(--key-bg-color);
 }
 .cancel-key {
   color: white;
