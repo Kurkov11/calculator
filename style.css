@@ -68,15 +68,18 @@ h1 {
   font-size: 1.5rem;
   background-color: var(--cancel-key-bg-color);
 }
+.main-key {
+  background-color: var(--key-bg-color);
+  box-shadow: 0 var(--shadow-offset) var(--key-shadow-color);
+  color: var(---dark-text-color);
+}
 .key {
   --shadow-offset: 4px;
-  background-color: var(--key-bg-color);
   border-radius: 0.15rem;
-  box-shadow: 0 var(--shadow-offset) var(--key-shadow-color);
   height: 3.5rem;
-  width: calc(var(--key-size) + var(--shadow-offset));
+  min-width: calc(var(--key-size) + var(--shadow-offset));
 }
-.key p {
+.main-key p {
   padding-top: 0.8rem;
 }
 .toggle {
@@ -117,9 +120,6 @@ h1 {
 .screen,
 h1 {
   color: white;
-}
-.key {
-  color: var(---dark-text-color);
 }
 .equals {
   background-color: var(--red);
