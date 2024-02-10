@@ -69,6 +69,12 @@ main {
 h1 {
   font-size: 2rem;
 }
+.key {
+  --shadow-offset: 4px;
+  border-radius: 0.15rem;
+  height: 3.5rem;
+  min-width: calc(var(--key-size) + var(--shadow-offset));
+}
 .screen,
 .key {
   font-size: 2.5rem;
@@ -81,12 +87,6 @@ h1 {
   background-color: var(--key-bg-color);
   box-shadow: 0 var(--shadow-offset) var(--key-shadow-color);
   color: var(---dark-text-color);
-}
-.key {
-  --shadow-offset: 4px;
-  border-radius: 0.15rem;
-  height: 3.5rem;
-  min-width: calc(var(--key-size) + var(--shadow-offset));
 }
 .main-key p {
   padding-top: 0.8rem;
