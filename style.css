@@ -17,7 +17,7 @@
   --key-shadow-color: hsl(28, 16%, 65%);
 
   /* Text */
-  ---dark-text-color: hsl(221, 14%, 31%);
+  --dark-text-color: hsl(221, 14%, 31%);
   --main-text-color: hsl(0, 0%, 100%);
 
   /* Sizes */
@@ -76,10 +76,13 @@ main {
 .main-key {
   background-color: var(--key-bg-color);
   box-shadow: 0 var(--shadow-offset) var(--key-shadow-color);
-  color: var(---dark-text-color);
+  color: var(--dark-text-color);
 }
 .screen {
   background-color: var(--screen-bg-color);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 /* Other colors end */
 
@@ -105,6 +108,9 @@ main {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 0.8rem;
   flex-grow: 1;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 main {
   padding: 1.8rem 1.5rem;
@@ -112,6 +118,9 @@ main {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 h1 {
   font-size: 2rem;
