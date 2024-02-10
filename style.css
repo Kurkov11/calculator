@@ -51,6 +51,7 @@ h1,
   padding: 1.7rem;
   text-align: right;
   border-radius: 1rem;
+  font-size: 2.4rem;
 }
 .keypad {
   background-color: var(--keypad-bg-color);
@@ -75,10 +76,6 @@ h1 {
   height: 3.5rem;
   min-width: calc(var(--key-size) + var(--shadow-offset));
 }
-.screen,
-.main-key {
-  font-size: 2rem;
-}
 .cancel-key,
 .equals {
   font-size: 1.2rem;
@@ -98,6 +95,7 @@ h1 {
   background-color: var(--key-bg-color);
   box-shadow: 0 var(--shadow-offset) var(--key-shadow-color);
   color: var(---dark-text-color);
+  font-size: 2rem;
 }
 .equals {
   background-color: var(--equals-bg-color);
