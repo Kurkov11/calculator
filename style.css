@@ -154,6 +154,7 @@ h1 {
 
   /* Position the dot neatly considering it's size and toggle height */
   padding-left: calc((var(--toggle-height) - var(--dot-size)) / 2);
+  padding-right: calc((var(--toggle-height) - var(--dot-size)) / 2);
 }
 .toggle__dot {
   border-radius: 9999px;
