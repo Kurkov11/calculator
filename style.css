@@ -37,6 +37,15 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+.theme,
+.toggle,
+.equals,
+.cancel-key,
+.screen,
+h1,
+.toggle-count {
+  color: white;
+}
 .screen {
   background-color: var(--screen-bg-color);
   padding: 1.7rem;
@@ -113,14 +122,6 @@ h1 {
   gap: 2rem;
   font-size: 0.9rem;
 }
-.theme,
-.toggle,
-.equals,
-.cancel-key,
-.screen,
-h1 {
-  color: white;
-}
 .equals {
   background-color: var(--red);
   grid-column: span 2;
@@ -132,5 +133,4 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin: 0 0.5rem;
-  color: white;
 }
