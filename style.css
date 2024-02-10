@@ -53,14 +53,14 @@ h1,
   background-color: var(--screen-bg-color);
   padding: 1.7rem;
   text-align: right;
-  border-radius: 1rem;
+  border-radius: 0.7rem;
   font-size: 2.4rem;
   margin-bottom: 1.5rem;
 }
 .keypad {
   background-color: var(--keypad-bg-color);
   padding: 1.5rem;
-  border-radius: 1rem;
+  border-radius: 0.7rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1rem;
