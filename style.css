@@ -218,3 +218,13 @@ h1 {
   box-shadow: none;
   transform: translateY(var(--key-shadow-offset));
 }
+
+@media only screen and (width > 540px) {
+  .calculator {
+    width: 540px;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+  }
+}
