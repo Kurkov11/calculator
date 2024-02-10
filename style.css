@@ -19,6 +19,7 @@
 
   /* Text */
   ---dark-text-color: hsl(221, 14%, 31%);
+  --main-text-color: hsl(0, 0%, 100%);
 
   /* Sizes */
   --key-size: 3.5rem;
@@ -37,14 +38,30 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+/* Color group 1 */
 .theme,
-.toggle,
-.equals,
-.cancel-key,
 .screen,
 h1,
 .toggle-count {
-  color: white;
+  color: var(--main-text-color);
+}
+/* Color group 2 */
+main {
+  background-color: var(--main-bg-color);
+}
+/* Color group 3 */
+.equals {
+  background-color: var(--equals-bg-color);
+  box-shadow: 0 var(--shadow-offset) var(--equals-shadow-color);
+  color: var(--main-text-color);
+}
+.toggle__dot {
+  background-color: var(--equals-bg-color);
+}
+/* Color group 4 */
+.cancel-key {
+  background-color: var(--cancel-key-bg-color);
+  box-shadow: 0 var(--shadow-offset) var(--cancel-key-shadow-color);
 }
 .upper {
   margin-bottom: 2rem;
@@ -72,7 +89,6 @@ h1,
   flex-grow: 1;
 }
 main {
-  background-color: var(--main-bg-color);
   padding: 1.5rem;
   height: 100vh;
   display: flex;
@@ -99,10 +115,6 @@ h1 {
 .equals p {
   padding-top: 0.4rem;
 }
-.cancel-key {
-  background-color: var(--cancel-key-bg-color);
-  box-shadow: 0 var(--shadow-offset) var(--cancel-key-shadow-color);
-}
 .main-key {
   background-color: var(--key-bg-color);
   box-shadow: 0 var(--shadow-offset) var(--key-shadow-color);
@@ -110,9 +122,7 @@ h1 {
   font-size: 2rem;
 }
 .equals {
-  background-color: var(--equals-bg-color);
   grid-column: span 2;
-  box-shadow: 0 var(--shadow-offset) var(--equals-shadow-color);
 }
 .toggle {
   --toggle-height: 1.6rem;
@@ -132,7 +142,6 @@ h1 {
   border-radius: 9999px;
   width: var(--dot-size);
   height: var(--dot-size);
-  background-color: var(--equals-bg-color);
 }
 .upper {
   display: flex;
