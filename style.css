@@ -108,10 +108,9 @@ main {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 0.8rem;
   flex-grow: 1;
-  margin-bottom: 1rem;
 }
 main {
-  padding: 1.5rem;
+  padding: 1.8rem 1.5rem;
   height: 100vh;
   display: flex;
   flex-direction: column;
